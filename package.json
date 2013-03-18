@@ -1,0 +1,16 @@
+{
+  "name": "convert-reinpk",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A component for converting and short-handing various units.",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "convert/index.js": "index.js"
+    }
+  }
+}
