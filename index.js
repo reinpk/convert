@@ -31,4 +31,4 @@ convert.moles = function (moles) {
 };
 
 
-modules.exports = convert;
+module.exports = convert;
