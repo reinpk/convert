@@ -49,8 +49,8 @@ describe('convert timespans', function () {
 
 describe('convert chemistry', function () {
 
-  it('should return 1 for exp of 0', function () {
-    convert.E(0).should.equal(1);
+  it('should properly convert atomic mass to molar mass', function () {
+    convert.atomicMassMolar(240).should.equal(0.240);
   });
 
 });

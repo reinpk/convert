@@ -29,6 +29,9 @@ convert.seconds = function (seconds) {
 convert.moles = function (moles) {
     return (moles * 6.02214179 * Math.pow(10, 23));
 };
+convert.atomicMassMolar = function (amu) {
+    return amu * 0.001; // molar mass based on atomic mass units
+};
 
 
 module.exports = convert;
